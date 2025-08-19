@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // app/(seller)/page.tsx
 export const metadata = {
   title: "Seller Assistant – Dashboard",
@@ -5,6 +6,10 @@ export const metadata = {
 };
 
 export default function SellerDashboard() {
+=======
+<<<<<<< HEAD
+export default function Dashboard() {
+>>>>>>> 832eb40 (t push origin main)
   return (
     <main className="p-4 space-y-4">
       <section>
@@ -42,3 +47,6 @@ export default function SellerDashboard() {
     </main>
   );
 }
+=======
+ECHO is on.
+>>>>>>> 5e52f84 (chore: remove accidental nested Seller-Assistant folder)
