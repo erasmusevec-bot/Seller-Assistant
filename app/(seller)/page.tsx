@@ -12,6 +12,7 @@ export default function SellerDashboard() {
         <p className="text-gray-600">Here’s your briefing for today.</p>
       </section>
 
+      {/* Quick actions – plain <a> links keep this server-safe */}
       <section className="grid grid-cols-2 gap-3">
         {[
           { label: "Map & Route", href: "/map" },
@@ -30,6 +31,7 @@ export default function SellerDashboard() {
         ))}
       </section>
 
+      {/* Static sample content to keep SSG simple */}
       <section className="rounded-xl border bg-white p-3 shadow-sm">
         <div className="text-sm font-semibold">Reminders</div>
         <ul className="mt-2 list-disc pl-5 text-sm text-gray-600">
