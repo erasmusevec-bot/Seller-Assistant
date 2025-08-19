@@ -1,63 +1,39 @@
-# Seller Assistant
+# Seller-Assistant  
 
-**Seller Assistant** is a B2B app that helps independent producers and sales agents manage **microgreens and fresh product sales**.  
-The platform supports producers, sellers, and buyers in one ecosystem, while keeping the interface simple for new users.
-
----
-
-## 🌟 Features (MVP)
-
-- **Seller Tools**
-  - Buyer CRM with reminders and notes
-  - Google Maps integration (prospects & route planning)
-  - Daily briefing (orders, targets, commission)
-  - Commission tracking
-
-- **Producer Tools**
-  - Products & yields (trays → grams → boxes)
-  - Delivery day rules & capacity management
-  - Seeding planner
-  - Invoicing automation
-
-- **Admin Tools**
-  - Plan management (Free, Subscription, Commission, Hybrid)
-  - KPIs & alerts (unused trays, expired agreements)
-  - Export reports (CSV/PDF)
+🚀 **Seller-Assistant** is a mobile & web platform designed to **support, motivate, and train sales agents**, while also helping local producers reach restaurants, stores, and individual customers more efficiently.  
 
 ---
 
-## 🏗 Tech Stack
+## 🌟 Features  
 
-- **Frontend**: Next.js (React + TypeScript)  
-- **Backend / DB**: Supabase (Postgres + Auth)  
-- **Payments**: Viva Wallet API (EU), Stripe (Global)  
-- **Maps & Leads**: Google Maps + Google Places API  
-- **PDF / Email**: SelectPDF + SendGrid  
-
----
-
-## 📊 Roadmap
-
-- **MVP (EU launch)** → microgreens orders, invoices, Viva Wallet payments.  
-- **Phase 2** → gamification, split payouts, AI upsell suggestions.  
-- **Phase 3** → expansion to USA, Canada, Australia, Japan.  
+- 📱 **Mobile-first design** – simple for new users, powerful for advanced users.  
+- 👩‍💼 **Sales agent tools** – track leads, manage customers, follow up with reminders.  
+- 🥦 **Microgreens marketplace** – connect local producers with restaurants, stores, and individuals.  
+- 👨‍🍳 **Cook monetization** – chefs can become agents and earn commission by recommending local produce.  
+- 🏬 **Store collaboration** – health store employees can upsell and suggest products.  
+- 📊 **Analytics dashboard** – monitor performance, sales growth, and customer insights.  
+- 🎓 **Training modules** – built-in micro-courses to improve selling skills.  
 
 ---
 
-## 🤝 Contributing
+## 🚀 Getting Started  
 
-Contributions are welcome!  
-1. Fork this repository  
-2. Create a new branch (`feature/my-feature`)  
-3. Commit your changes  
-4. Push to the branch  
-5. Create a Pull Request  
+### Prerequisites  
+- [Node.js](https://nodejs.org/) (v18+)  
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
 
----
+### Installation  
 
-## 📜 License
+```bash
+# Clone the repository
+git clone https://github.com/erasmusevec-bot/Seller-Assistant.git
 
-This project is licensed under the **MIT License** – you can use, modify, and distribute freely with attribution.
+# Navigate into the project
+cd Seller-Assistant
 
----
+# Install dependencies
+npm install
+# or
+yarn install
+```
 
