@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023", "DOM"],
+    "jsx": "preserve",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "strict": true,
+    "incremental": true,
+    "types": ["node"]
+  }
+}
